@@ -36,6 +36,9 @@ export default function App() {
         <input type="submit" value="Seach" />
       </form>
       {forecastData ? <Forecast forecastData={forecastData} /> : null}
+      <a href="https://github.com/Sira-Viktoriia/weather-react">
+        https://github.com/Sira-Viktoriia/weather-react
+      </a>
     </div>
   );
 }
